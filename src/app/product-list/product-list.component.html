@@ -1,0 +1,24 @@
+<fieldset>
+    <!-- <legend>
+        <p>product-list works!</p>
+    </legend> -->
+    <div class="container">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let product of products">
+                    <td>{{product.Name}}  {{product.Price}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</fieldset>
+
+
+
